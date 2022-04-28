@@ -16,6 +16,8 @@
 		6DF13D832819F89C00869A60 /* DesafioCustomViewTableCell2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF13D822819F89C00869A60 /* DesafioCustomViewTableCell2Tests.swift */; };
 		6DF13D8D2819F89D00869A60 /* DesafioCustomViewTableCell2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF13D8C2819F89D00869A60 /* DesafioCustomViewTableCell2UITests.swift */; };
 		6DF13D8F2819F89D00869A60 /* DesafioCustomViewTableCell2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF13D8E2819F89D00869A60 /* DesafioCustomViewTableCell2UITestsLaunchTests.swift */; };
+		6DF13D9C2819FA0100869A60 /* FilmesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF13D9B2819FA0100869A60 /* FilmesTableViewCell.swift */; };
+		6DF13D9E2819FA1400869A60 /* SeriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF13D9D2819FA1400869A60 /* SeriesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6DF13D882819F89C00869A60 /* DesafioCustomViewTableCell2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioCustomViewTableCell2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF13D8C2819F89D00869A60 /* DesafioCustomViewTableCell2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCustomViewTableCell2UITests.swift; sourceTree = "<group>"; };
 		6DF13D8E2819F89D00869A60 /* DesafioCustomViewTableCell2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCustomViewTableCell2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DF13D9B2819FA0100869A60 /* FilmesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesTableViewCell.swift; sourceTree = "<group>"; };
+		6DF13D9D2819FA1400869A60 /* SeriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				6DF13D742819F89C00869A60 /* Assets.xcassets */,
 				6DF13D762819F89C00869A60 /* LaunchScreen.storyboard */,
 				6DF13D792819F89C00869A60 /* Info.plist */,
+				6DF13D9B2819FA0100869A60 /* FilmesTableViewCell.swift */,
+				6DF13D9D2819FA1400869A60 /* SeriesTableViewCell.swift */,
 			);
 			path = DesafioCustomViewTableCell2;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				6DF13D702819F89900869A60 /* ViewController.swift in Sources */,
 				6DF13D6C2819F89900869A60 /* AppDelegate.swift in Sources */,
+				6DF13D9E2819FA1400869A60 /* SeriesTableViewCell.swift in Sources */,
 				6DF13D6E2819F89900869A60 /* SceneDelegate.swift in Sources */,
+				6DF13D9C2819FA0100869A60 /* FilmesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
